@@ -1,0 +1,26 @@
+# Audio analysis
+essentia-tensorflow==2.1b6.dev1389
+librosa==0.11.0
+
+# CLAP text-audio embeddings
+laion_clap==1.1.7
+
+# PyTorch — CPU build (replace with CUDA build if needed, see README)
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+
+# Numerical / ML
+numpy==1.26.4
+scipy==1.17.1
+scikit-learn==1.8.0
+
+# Data & visualization
+pandas==3.0.2
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Streamlit UI
+streamlit==1.56.0
+
+# Utilities
+tqdm==4.67.3
