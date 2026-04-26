@@ -70,13 +70,6 @@ python analyze_collection.py \
   --workers    1 \
   --gpu
 ```
-
-For the project, I used [MusAV](https://repositori.upf.edu/items/ea4c4a4c-958f-4004-bdc2-e1f6ad7e6829#page=1). It is already downloaded in the project, so you can use it to test everything.
-
-> IMPORTANT! If the script is interrupted, re-running the same command skips already-analyzed tracks and picks up where it left off. 
-
-If you are running the script in local it takes quite some time to execute the code, so be aware of this. 
- 
 | Argument | Default | Description |
 |----------|---------|-------------|
 | `--audio_dir` | REQUIRED | Root folder to scan for MP3 files |
@@ -84,6 +77,13 @@ If you are running the script in local it takes quite some time to execute the c
 | `--output` | `results.json` | Output JSON file path |
 | `--workers` | `1` | Number of parallel worker processes |
 | `--gpu` | off | Use CUDA GPU for CLAP inference |
+
+
+> IMPORTANT! If the script is interrupted, re-running the same command skips already-analyzed tracks and picks up where it left off. 
+
+If you are running the script in local it takes quite some time to execute the code, so be aware of this. 
+ 
+For the project, I used [MusAV](https://repositori.upf.edu/items/ea4c4a4c-958f-4004-bdc2-e1f6ad7e6829#page=1). It is already downloaded in the project, so you can use it to test everything.
 
 If you want to see of use the results I already extracted, you can find them [HERE](./collection_analysis.json).
 
